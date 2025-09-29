@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HeadphoneParty_App25">
         <activity
+            android:name=".UserTypeScreen"
+            android:exported="false" />
+        <activity
+            android:name=".EventScreen"
+            android:exported="false" />
+        <activity
             android:name=".LogInActivity"
             android:exported="false" />
         <activity
