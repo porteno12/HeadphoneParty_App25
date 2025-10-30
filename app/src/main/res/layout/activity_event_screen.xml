@@ -6,13 +6,13 @@
     android:fillViewport="true"
     android:padding="16dp"
     android:background="@android:color/white">
-
+<!--
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <!-- Header image with rounded corners -->
+        &lt;!&ndash; Header image with rounded corners &ndash;&gt;
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
             android:layout_height="190dp"
@@ -29,7 +29,7 @@
                 android:src="@drawable/party" />
         </com.google.android.material.card.MaterialCardView>
 
-        <!-- Section: Event Details -->
+        &lt;!&ndash; Section: Event Details &ndash;&gt;
         <TextView
             android:id="@+id/tvEventDetails"
             android:layout_width="wrap_content"
@@ -40,7 +40,7 @@
             android:textSize="18sp"
             android:layout_marginBottom="8dp" />
 
-        <!-- Event Name -->
+        &lt;!&ndash; Event Name &ndash;&gt;
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -70,7 +70,7 @@
                 android:inputType="textCapWords"/>
         </com.google.android.material.textfield.TextInputLayout>
 
-        <!-- Date + Time -->
+        &lt;!&ndash; Date + Time &ndash;&gt;
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -156,7 +156,7 @@
             </LinearLayout>
         </LinearLayout>
 
-        <!-- Location -->
+        &lt;!&ndash; Location &ndash;&gt;
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -188,7 +188,7 @@
                 android:inputType="textCapSentences"/>
         </com.google.android.material.textfield.TextInputLayout>
 
-        <!-- Theme & Description -->
+        &lt;!&ndash; Theme & Description &ndash;&gt;
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -221,7 +221,7 @@
                 android:padding="8dp"/>
         </com.google.android.material.textfield.TextInputLayout>
 
-        <!-- Section: Event Features -->
+        &lt;!&ndash; Section: Event Features &ndash;&gt;
         <TextView
             android:id="@+id/tvEventFeatures"
             android:layout_width="wrap_content"
@@ -233,7 +233,7 @@
             android:layout_marginTop="16dp"
             android:layout_marginBottom="8dp" />
 
-        <!-- Add Music Theme -->
+        &lt;!&ndash; Add Music Theme &ndash;&gt;
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -263,7 +263,7 @@
                 android:hint="Genres, DJs, vibe…"/>
         </com.google.android.material.textfield.TextInputLayout>
 
-        <!-- Add Food Preferences -->
+        &lt;!&ndash; Add Food Preferences &ndash;&gt;
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -294,7 +294,7 @@
                 android:hint="Vegetarian, kosher, allergies…"/>
         </com.google.android.material.textfield.TextInputLayout>
 
-        <!-- Publish button -->
+        &lt;!&ndash; Publish button &ndash;&gt;
         <com.google.android.material.button.MaterialButton
             android:id="@+id/btnPublish"
             android:layout_width="match_parent"
@@ -305,5 +305,5 @@
             android:backgroundTint="#7B1FA2"
             app:cornerRadius="24dp" />
 
-    </LinearLayout>
+    </LinearLayout>-->
 </ScrollView>

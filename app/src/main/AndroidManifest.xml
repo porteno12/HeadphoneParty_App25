@@ -12,20 +12,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HeadphoneParty_App25">
         <activity
-            android:name=".UserTypeScreen"
+            android:name=".activities.SignUpActivity"
             android:exported="false" />
         <activity
-            android:name=".EventScreen"
+            android:name=".activities.UserTypeScreen"
             android:exported="false" />
         <activity
-            android:name=".LogInActivity"
+            android:name=".activities.EventScreen"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.LogInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.Splash_Screen"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SonglistScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

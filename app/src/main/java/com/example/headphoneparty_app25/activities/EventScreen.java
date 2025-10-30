@@ -1,12 +1,10 @@
-package com.example.headphoneparty_app25;
+package com.example.headphoneparty_app25.activities;
 
 import android.os.Bundle;
 
-import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
+
+import com.example.headphoneparty_app25.R;
 
 public class EventScreen extends AppCompatActivity {
 

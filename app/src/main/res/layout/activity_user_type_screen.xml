@@ -5,14 +5,14 @@
     android:layout_height="match_parent"
     android:fillViewport="true"
     android:background="@android:color/white">
-
+<!--
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="16dp">
 
-        <!-- Back pill -->
+        &lt;!&ndash; Back pill &ndash;&gt;
         <com.google.android.material.chip.Chip
             android:id="@+id/chipBack"
             style="@style/Widget.Material3.Chip.Assist.Elevated"
@@ -27,7 +27,7 @@
             app:chipIconSize="18dp"
             app:chipIcon="@drawable/ic_arrow_left_24" />
 
-        <!-- Title -->
+        &lt;!&ndash; Title &ndash;&gt;
         <TextView
             android:id="@+id/tvTitle"
             android:layout_width="wrap_content"
@@ -47,7 +47,7 @@
             android:layout_marginTop="4dp"
             android:layout_marginBottom="12dp" />
 
-        <!-- Grid 2 columns -->
+        &lt;!&ndash; Grid 2 columns &ndash;&gt;
         <GridLayout
             android:id="@+id/gridRoles"
             android:layout_width="match_parent"
@@ -55,7 +55,7 @@
             android:columnCount="2"
             android:rowOrderPreserved="false">
 
-            <!-- Card template (copy & change icon/text) -->
+            &lt;!&ndash; Card template (copy & change icon/text) &ndash;&gt;
             <com.google.android.material.card.MaterialCardView
                 android:layout_width="0dp"
                 android:layout_height="110dp"
@@ -181,7 +181,7 @@
                 </LinearLayout>
             </com.google.android.material.card.MaterialCardView>
 
-            <!-- Selected card (blue filled with check) -->
+            &lt;!&ndash; Selected card (blue filled with check) &ndash;&gt;
             <FrameLayout
                 android:layout_width="0dp"
                 android:layout_height="110dp"
@@ -260,7 +260,7 @@
             </com.google.android.material.card.MaterialCardView>
         </GridLayout>
 
-        <!-- Bottom bar -->
+        &lt;!&ndash; Bottom bar &ndash;&gt;
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="64dp"
@@ -293,5 +293,5 @@
                 app:srcCompat="@drawable/ic_arrow_right_24" />
         </LinearLayout>
 
-    </LinearLayout>
+    </LinearLayout>-->
 </androidx.core.widget.NestedScrollView>
